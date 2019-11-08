@@ -11,5 +11,5 @@ end
 
 collection = (1..100).to_a
 binding.pry
-my_find(collection) {|i| i % 3 == 0 and i % 5 ==0)}
+my_find(collection) {|i| i % 3 == 0 and i % 5 ==0}
 
